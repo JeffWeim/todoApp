@@ -1,0 +1,205 @@
+
+
+body {
+  background: url('/images/shattered_@2X.png');
+  font-family: 'Oswald', 'Futura', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#page {
+  background-color: #403c3b;
+  margin: 0 auto 0 auto;
+  position: relative;
+  text-align: center;
+  padding: 65px;
+}
+
+h1 {
+  background-image: url('/images/Initials.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  text-indent: -1000%;
+  height: 75px;
+  line-height: 75px;
+  width: 117px;
+  margin: 0 auto 0 auto;
+  padding: 30px 10px 20px 10px;
+ }
+
+ h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  display: inline-block;
+  margin: 0 0 23px 0;
+}
+
+h2 span {
+  background-color: #fff;
+  color: #000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  display: inline-block;
+  position: relative;
+  border-radius: 50%;
+  top: -5px;
+  height: 22px;
+  width: 26px;
+  padding: 4px 0 0 0;
+}
+
+ul {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hot {
+  background-color: #49639E;
+  color: #fff;
+  text-shadow: 2px 2px 1px #7E7C89;
+  border-top: 1px solid #92A0E9;
+  border-bottom: 1px solid #7E7C89;
+}
+
+li {
+  background-color: #C7C8DF;
+  color: #3F3F3F;
+  border-top: 1px solid #92A0E9;
+  border-bottom: 1px solid #92A0E9;
+  font-size: 24px;
+  letter-spacing: .05em;
+  list-style-type: none;
+  text-shadow: 2px 2px 1px #8C8D93;
+  text-align: left;
+  height: 50px;
+  padding-left: 1em;
+  padding-top: 10px;
+}
+
+.complete {
+  background-color: #999;
+  color: #fff;
+  background-image: url('/images/icon-trash.png');
+  background-position: right, center;
+  background-repeat: no-repeat;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #b0b0b0;
+  text-shadow: 2px 2px 1px #333;
+}
+
+#newItemButton {
+  padding: 10px 20px 75px 20px;
+  display: none;
+}
+
+input[type='submit'], a.add, button {
+  float: right;
+}
+
+input[type='submit'], a.add, button, a.show {
+  background-color: #cb6868;
+  color: #f3dad1;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 10px;
+  margin-top: 10px;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#newItemForm {
+  padding-top: 20px;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+#itemDescription {
+  width: 360px;
+}
+
+input[type='text'], input[type='password'], textarea {
+  background-color: #999;
+  color: #333;
+  font-size: 24px;
+  width: 96%;
+  padding: 4px 6px;
+  border: 1px solid #999;
+  border-radius: 8px;
+}
+
+#newItemForm input[type='submit'] {
+  margin-top: 0;
+  text-align: left;
+}
+input[type='submit'], a.add, button {
+  float: right;
+}
+input[type='submit'], a.add, button, a.show {
+  background-color: #49639E;
+  color: #92A0E9;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 10px;
+  margin-top: 10px;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+button#clear {
+  display: block;
+  margin: 0 auto;
+  float: none;
+  position: relative;
+  top: 25px;
+  left: 30px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  body {
+      background-color: #403c3b;
+  }
+  #page {
+    max-width: 467px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+  #page {
+    max-width: 480px;
+    margin: 20px auto 20px auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  #page {
+    max-width: 480px;
+    margin: 20px auto 20px auto;
+  }
+}
+/* Larger screens act like a demo for the app */
+@media only screen and (min-width: 960px) {
+  #page {
+    max-width: 480px;
+    margin: 20px auto 20px auto;
+  }
+}
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+  h1{
+    background-image: url();
+    background-size: 72px 72px;
+  }
+}

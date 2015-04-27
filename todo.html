@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jeff Weimer's Example Todo Web App</title>
+    <link rel="stylesheet" href="css/todo.css" />
+
+    <!-- Responsive Grid System-->
+     <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/html5reset.css" media="all"> 
+    <link rel="stylesheet" href="css/responsivegridsystem.css" media="all">
+    <link rel="stylesheet" href="css/col.css" media="all">
+    <link rel="stylesheet" href="css/2cols.css" media="all">
+     <!-- Responsive Stylesheets -->
+    <link rel="stylesheet" media="only screen and (max-width: 1024px) and (min-width: 769px)" href="/css/1024.css">
+    <link rel="stylesheet" media="only screen and (max-width: 768px) and (min-width: 481px)" href="/css/768.css">
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="/css/480.css">
+     <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements and feature detects -->
+    <!-- End Responsive Grid -->
+
+  </head>
+  
+  <body>
+    <div class="section group">
+      <div id="page">
+        <h1 id="header">List</h1>
+        <h2>Things To Do: <span id="counter"></span></h2>
+        <ul id="todos">
+          
+        </ul>
+        <div id="newItemButton"><button href="#" id="showForm">new item</button></div>
+        <form id="newItemForm">
+          <input type="text" id="itemDescription" placeholder="Add Things To Do" />
+          <input type="submit" id="add" value="add" />
+        </form>
+        <form id="clearForm">
+          <button id="clear">Clear All</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>  
+    <script src="js/todo.js"></script>
+    <script type="text/javascript" src="js/responsivegridsystem.js"></script>
+    <script type="text/javascript" src="js/modernizr-2.5.3-min.js"></script>
+
+  </body>
+</html>
